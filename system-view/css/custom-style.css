@@ -1,0 +1,32 @@
+/*
+*  Bootstrap CSS 
+*
+*   Custom extend
+*  
+*  在原有基础上进行自定义扩展
+*  
+*/
+
+#main-content {
+    margin-left: 180px;
+}
+
+section.main-content{
+	margin-top: 60px;
+	position:fixed;
+	overflow: hidden; 
+	outline: none;
+}
+
+.tab-head {
+    background: #7087a3;
+    display: inline-block;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.tab-content{
+	margin-top:-3px;
+	height:100%;
+}
+

@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mosaddek">
+    <meta name="keyword" content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+    <link rel="shortcut icon" href="img/favicon.html">
+
+    <title>index</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-reset.css" rel="stylesheet">
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+	<link href="css/custom-style.css" rel="stylesheet">
+	<link href="css/bootstrap-treeview.min.css" rel="stylesheet">
+	
+	<!--<link href="css/bootstrap-table.css" rel="stylesheet">-->
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.5/bootstrap-table.min.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+
+  <body>
+
+    <section id="container" class="">
+      <!--header start-->
+      <header class="header white-bg">
+          <div class="sidebar-toggle-box">
+              <div data-original-title="Toggle Navigation" data-placement="right" class="icon-reorder tooltips"></div>
+          </div>
+          <!--logo start-->
+          <a href="#" class="logo" >Flat<span>lab</span></a>
+          <!--logo end-->
+          <div class="nav notify-row" id="top_menu">
+            <!--  notification start -->
+            <ul class="nav top-menu">
+              <!-- settings start -->
+              <li class="dropdown">
+                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                      <i class="icon-tasks"></i>
+                      <span class="badge bg-success">6</span>
+                  </a>
+                  <ul class="dropdown-menu extended tasks-bar">
+                      <div class="notify-arrow notify-arrow-green"></div>
+                      <li>
+                          <p class="green">You have 6 pending tasks</p>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <div class="task-info">
+                                  <div class="desc">Dashboard v1.3</div>
+                                  <div class="percent">40%</div>
+                              </div>
+                              <div class="progress progress-striped">
+                                  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                      <span class="sr-only">40% Complete (success)</span>
+                                  </div>
+                              </div>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <div class="task-info">
+                                  <div class="desc">Database Update</div>
+                                  <div class="percent">60%</div>
+                              </div>
+                              <div class="progress progress-striped">
+                                  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                      <span class="sr-only">60% Complete (warning)</span>
+                                  </div>
+                              </div>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <div class="task-info">
+                                  <div class="desc">Iphone Development</div>
+                                  <div class="percent">87%</div>
+                              </div>
+                              <div class="progress progress-striped">
+                                  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 87%">
+                                      <span class="sr-only">87% Complete</span>
+                                  </div>
+                              </div>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <div class="task-info">
+                                  <div class="desc">Mobile App</div>
+                                  <div class="percent">33%</div>
+                              </div>
+                              <div class="progress progress-striped">
+                                  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 33%">
+                                      <span class="sr-only">33% Complete (danger)</span>
+                                  </div>
+                              </div>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <div class="task-info">
+                                  <div class="desc">Dashboard v1.3</div>
+                                  <div class="percent">45%</div>
+                              </div>
+                              <div class="progress progress-striped active">
+                                  <div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                      <span class="sr-only">45% Complete</span>
+                                  </div>
+                              </div>
+
+                          </a>
+                      </li>
+                      <li class="external">
+                          <a href="#">See All Tasks</a>
+                      </li>
+                  </ul>
+              </li>
+              <!-- settings end -->
+              <!-- inbox dropdown start-->
+              <li id="header_inbox_bar" class="dropdown">
+                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                      <i class="icon-envelope-alt"></i>
+                      <span class="badge bg-important">5</span>
+                  </a>
+                  <ul class="dropdown-menu extended inbox">
+                      <div class="notify-arrow notify-arrow-red"></div>
+                      <li>
+                          <p class="red">You have 5 new messages</p>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="photo"><img alt="avatar" src="img/avatar-mini.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Jonathan Smith</span>
+                                    <span class="time">Just now</span>
+                                    </span>
+                                    <span class="message">
+                                        Hello, this is an example msg.
+                                    </span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="photo"><img alt="avatar" src="img/avatar-mini2.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Jhon Doe</span>
+                                    <span class="time">10 mins</span>
+                                    </span>
+                                    <span class="message">
+                                     Hi, Jhon Doe Bhai how are you ?
+									</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="photo"><img alt="avatar" src="img/avatar-mini3.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Jason Stathum</span>
+                                    <span class="time">3 hrs</span>
+                                    </span>
+                                    <span class="message">
+                                        This is awesome dashboard.
+                                    </span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="photo"><img alt="avatar" src="img/avatar-mini4.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Jondi Rose</span>
+                                    <span class="time">Just now</span>
+                                    </span>
+                                    <span class="message">
+                                        Hello, this is metrolab
+                                    </span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">See all messages</a>
+                      </li>
+                  </ul>
+              </li>
+              <!-- inbox dropdown end -->
+              <!-- notification dropdown start-->
+              <li id="header_notification_bar" class="dropdown">
+                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                      <i class="icon-bell-alt"></i>
+                      <span class="badge bg-warning">7</span>
+                  </a>
+                  <ul class="dropdown-menu extended notification">
+                      <div class="notify-arrow notify-arrow-yellow"></div>
+                      <li>
+                          <p class="yellow">You have 7 new notifications</p>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="label label-danger"><i class="icon-bolt"></i></span>
+                              Server #3 overloaded.
+                              <span class="small italic">34 mins</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="label label-warning"><i class="icon-bell"></i></span>
+                              Server #10 not respoding.
+                              <span class="small italic">1 Hours</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="label label-danger"><i class="icon-bolt"></i></span>
+                              Database overloaded 24%.
+                              <span class="small italic">4 hrs</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="label label-success"><i class="icon-plus"></i></span>
+                              New user registered.
+                              <span class="small italic">Just now</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="label label-info"><i class="icon-bullhorn"></i></span>
+                              Application error.
+                              <span class="small italic">10 mins</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">See all notifications</a>
+                      </li>
+                  </ul>
+              </li>
+              <!-- notification dropdown end -->
+          </ul>
+          </div>
+          <div class="top-nav ">
+              <ul class="nav pull-right top-menu">
+                  <li>
+                      <input type="text" class="form-control search" placeholder="Search">
+                  </li>
+                  <!-- user login dropdown start-->
+                  <li class="dropdown">
+                      <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                          <img alt="" src="img/avatar1_small.jpg">
+                          <span class="username">Jhon Doue</span>
+                          <b class="caret"></b>
+                      </a>
+                      <ul class="dropdown-menu extended logout">
+                          <div class="log-arrow-up"></div>
+                          <li><a href="#"><i class=" icon-suitcase"></i>Profile</a></li>
+                          <li><a href="#"><i class="icon-cog"></i> Settings</a></li>
+                          <li><a href="#"><i class="icon-bell-alt"></i> Notification</a></li>
+                          <li><a href="login.html"><i class="icon-key"></i> Log Out</a></li>
+                      </ul>
+                  </li>
+                  <!-- user login dropdown end -->
+              </ul>
+          </div>
+      </header>
+      <!--header end-->
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu">
+                  <li class="">
+                      <a class="" href="index.html">
+                          <i class="icon-dashboard"></i>
+                          <span>Dashboard</span>
+                      </a>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon-book"></i>
+                          <span>UI Elements</span>
+                          <span class="arrow"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="general.html">General</a></li>
+                          <li><a class="" href="buttons.html">Buttons</a></li>
+                          <li><a class="" href="widget.html">Widget</a></li>
+                          <li><a class="" href="slider.html">Slider</a></li>
+                          <li><a class="" href="font_awesome.html">Font Awesome</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu active">
+                      <a href="javascript:;" class="">
+                          <i class="icon-cogs"></i>
+                          <span>Components</span>
+                          <span class="arrow"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="grids.html">Grids</a></li>
+                          <li><a class="" href="calendar.html">Calendar</a></li>
+                          <li class="active"><a class="" href="charts.html">Charts</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon-tasks"></i>
+                          <span>Form Stuff</span>
+                          <span class="arrow"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="form_component.html">Form Components</a></li>
+                          <li><a class="" href="form_wizard.html">Form Wizard</a></li>
+                          <li><a class="" href="form_validation.html">Form Validation</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon-th"></i>
+                          <span>Data Tables</span>
+                          <span class="arrow"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="basic_table.html">Basic Table</a></li>
+                          <li><a class="" href="dynamic_table.html">Dynamic Table</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a class="" href="inbox.html">
+                          <i class="icon-envelope"></i>
+                          <span>Mail </span>
+                          <span class="label label-danger pull-right mail-info">2</span>
+                      </a>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon-glass"></i>
+                          <span>Extra</span>
+                          <span class="arrow"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="blank.html">Blank Page</a></li>
+                          <li><a class="" href="profile.html">Profile</a></li>
+                          <li><a class="" href="invoice.html">Invoice</a></li>
+                          <li><a class="" href="404.html">404 Error</a></li>
+                          <li><a class="" href="500.html">500 Error</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a class="" href="login.html">
+                          <i class="icon-user"></i>
+                          <span>Login Page</span>
+                      </a>
+                  </li>
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      <!--main content start-->
+      <section id="main-content" class="main-content">
+          <header class="tab-head">
+              <ul class="nav nav-tabs">
+                  <li class="active">
+                      <a data-toggle="tab" href="#morris">Morris</a>
+                  </li>
+              </ul>
+          </header>
+          <section>
+		      <!-- page start-->
+			  <div class="tab-content">
+				  <div class="tab-pane active" id="morris" style="height: 100%;">
+					  <section id="content" style="height: 100%;">
+						  <!--main content start-->
+						  <div class="mail-box" id="divcontent" style="height: 100%;">
+							  <aside class="sm-side">
+								  <section class="panel" style="height: 100%;">
+									  <header class="panel-heading">
+										  Doughnut
+									  </header>
+									  <div id="treeview"></div>
+								  </section>
+							  </aside>
+							  <aside class="lg-side">
+								  <div class="inbox-body" style="padding-bottom:1px;">
+									<section class="panel">
+									  <!-- <div class="panel-body"> -->
+										<form class="form-inline" role="form">
+											<div class="form-group">
+												<label for="txtname">名称</label>
+												<input type="text" class="form-control" id="txtname" style="width:75%"
+													   placeholder="请输入名称">
+											</div>
+											<div class="form-group">
+												<label for="txtcode">编码</label>
+												<input type="text" class="form-control" id="txtcode" style="width:75%"
+													   placeholder="请输入编码">
+											</div>
+											<button type="submit" class="btn btn-default pull-right">提交</button>
+										</form>
+									</section>
+									<section class="panel" style="margin-bottom:1px;">
+										<div id="toolbar" class="btn-group">
+											<button id="btn_add" type="button" class="btn btn-default">
+												<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新增
+											</button>
+											<button id="btn_edit" type="button" class="btn btn-default">
+												<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>修改
+											</button>
+											<button id="btn_delete" type="button" class="btn btn-default">
+												<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+											</button>
+										</div>
+										<table class="table table-bordered table-hover table-striped" id = "strapTable"></table>
+									</section>
+								  </div>
+							  </aside>
+						  </div>
+					      <!--main content end-->
+					  </section>
+				  </div>
+			  </div>
+		      <!-- page end-->
+          </section>
+      </section>
+      <!--main content end-->
+    </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
+	<script src="js/bootstrap-treeview.min.js" type="text/javascript"></script>
+    <!--common script for all pages-->
+    <script src="js/common-scripts.js"></script>
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.5/bootstrap-table.min.js"></script>-->
+	<script src="xjs/bootstrap-table.js"></script>
+	
+	<!-- Latest compiled and minified Locales -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.5/locale/bootstrap-table-zh-CN.min.js"></script>
+	<!--
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.5/extensions/toolbar/bootstrap-table-toolbar.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.5/extensions/resizable/bootstrap-table-resizable.min.js"></script>
+	-->
+	
+	<script>
+	
+    var defaultData = [{
+            text: 'Parent 1',
+            href: '#parent1',
+            tags: ['4'],
+            nodes: [
+              {
+                text: 'Child 1',
+                href: '#child1',
+                tags: ['2'],
+                nodes: [
+                  {
+                    text: 'Grandchild 1',
+                    href: '#grandchild1',
+                    tags: ['0']
+                  },
+                  {
+                    text: 'Grandchild 2',
+                    href: '#grandchild2',
+                    tags: ['0']
+                  }
+                ]
+              },
+              {
+                text: 'Child 2',
+                href: '#child2',
+                tags: ['0']
+              }
+            ]
+          },
+          {
+            text: 'Parent 2',
+            href: '#parent2',
+            tags: ['0']
+          },
+          {
+            text: 'Parent 3',
+            href: '#parent3',
+             tags: ['0']
+          },
+          {
+            text: 'Parent 4',
+            href: '#parent4',
+            tags: ['0']
+          },
+          {
+            text: 'Parent 5',
+            href: '#parent5'  ,
+            tags: ['0']
+          }
+    ];
+    
+    $('#treeview').treeview({
+          expandIcon: 'glyphicon glyphicon-chevron-right',
+          collapseIcon: 'glyphicon glyphicon-chevron-down',
+          nodeIcon: 'glyphicon glyphicon-bookmark',
+          color: "#428bca",
+          backColor: "",
+          onhoverColor: "",
+          borderColor: "",
+          showBorder: false,
+          showTags: false,
+          highlightSelected: true,
+          selectedColor: "#fff",
+          selectedBackColor: "#428bca",
+          data: defaultData
+    });
+	
+	var data = JSON.parse(
+        '[{"id":1,"pid":0,"status":1,"name":"用户管理","perm":"open:user:manage"},' +
+        '{"id":2,"pid":0,"status":1,"name":"系统管理","perm":"open:system:manage"},' +
+        '{"id":3,"pid":1,"status":1,"name":"新增用户","perm":"open:user:add"},' +
+        '{"id":4,"pid":1,"status":1,"name":"修改用户","perm":"open:user:edit"},' +
+        '{"id":5,"pid":1,"status":0,"name":"删除用户","perm":"open:user:del"},' +
+        '{"id":6,"pid":2,"status":1,"name":"系统配置管理","perm":"open:systemconfig:manage"},' +
+        '{"id":7,"pid":6,"status":1,"name":"新增配置","perm":"open:systemconfig:add"},' +
+        '{"id":8,"pid":6,"status":1,"name":"修改配置","perm":"open:systemconfig:edit"},' +
+        '{"id":9,"pid":6,"status":0,"name":"删除配置","perm":"open:systemconfig:del"},' +
+        '{"id":10,"pid":2,"status":1,"name":"系统日志管理","perm":"open:log:manage"},' +
+        '{"id":11,"pid":10,"status":1,"name":"新增日志","perm":"open:log:add"},' +
+        '{"id":12,"pid":10,"status":1,"name":"修改日志","perm":"open:log:edit"},' +
+        '{"id":13,"pid":10,"status":0,"name":"删除日志","perm":"open:log:del"}]');
+	
+	/**	
+	* 服务器分页数据格式 
+	*
+	var data = JSON.parse('{"total": 30,"rows":[' +
+		'{"id":1,"pid":0,"status":1,"name":"用户管理","perm":"open:user:manage"},' +
+        '{"id":9,"pid":6,"status":0,"name":"删除配置","perm":"open:systemconfig:del"},' +
+        '{"id":13,"pid":10,"status":0,"name":"删除日志","perm":"open:log:del"}]}');
+	console.log(data);
+	**/	
+	
+	 $(function () {
+		 //1.初始化Table
+		 var oTable = new TableInit();
+		 oTable.Init();
+	 });
+	 
+	 var h = $(window).height() - 180;//动态获取窗口高度
+	 var TableInit = function () {
+		var oTableInit = new Object();
+		//初始化Table
+		oTableInit.Init = function () {
+			$('#strapTable').bootstrapTable({
+				//data:data,
+				idField: 'id',
+				dataType:'json',
+				url: 'https://examples.wenzhixin.net.cn/examples/bootstrap_table/data',              //请求后台的URL（*）
+				method: 'get',                      //请求方式（*）
+				toolbar: '#toolbar',                //工具按钮用哪个容器
+				striped: true,                      //是否显示行间隔色
+				cache: false,                       //是否使用缓存，默认为true，所以一般情况下需要设置一下这个属性（*）
+				pagination: true,                   //是否显示分页（*）
+				sortable: true,                     //是否启用排序
+				sortOrder: "asc",                   //排序方式
+				queryParamsType:'limit',		    //设置为undefined可以获取pageNumber，pageSize，searchText，sortName，sortOrder  
+													//设置为limit可以获取limit, offset, search, sort, order  
+				queryParams: oTableInit.queryParams,//传递参数（*）
+				sidePagination: "server",           //分页方式：client客户端分页，server服务端分页（*）
+				pageNumber: 1,                      //初始化加载第一页，默认第一页
+				pageSize: 10,                       //每页的记录行数（*）
+				pageList: [10, 25, 50, 100],        //可供选择的每页的行数（*）
+				search: true,                       //是否显示表格搜索，此搜索是客户端搜索，不会进服务端，所以，个人感觉意义不大
+				contentType: "application/x-www-form-urlencoded",
+				strictSearch: true,
+				showColumns: true,                  //是否显示所有的列
+				buttonsAlign: "right",              //按钮对齐方式
+				showRefresh: true,                  //是否显示刷新按钮
+				minimumCountColumns: 2,             //最少允许的列数
+				clickToSelect: true,                //是否启用点击选中行
+				height: h,                          //行高，如果没有设置height属性，表格自动根据记录条数觉得表格高度
+				uniqueId: "id",                     //每一行的唯一标识，一般为主键列
+				showToggle: true,                   //是否显示详细视图和列表视图的切换按钮
+				cardView: false,                    //是否显示详细视图
+				showPaginationSwitch: true,         //显示或隐藏分页
+				detailView: false,                  //是否显示父子表
+				columns: [
+					{ 
+						field: 'check',  checkbox: true, formatter: function (value, row, index) {
+							if (row.check == true) {
+							    //console.log(row.serverName);
+								//设置选中
+								return {  checked: true };
+							}
+						}
+					},
+					{ field: 'id', title: '编号', sortable: true, align: 'center',width:100},
+					{ field: 'name',  title: '名称',width:250},
+					//{ field: 'status',  title: '状态', sortable: true,  align: 'center', formatter: 'statusFormatter',width:120},
+					{ field: 'price', title: '金额',width:150},
+					{ field: 'operate', title: '操作', align: 'center', events : operateEvents, formatter: 'operateFormatter'},
+				],
+				rowStyle: function (row, index) {
+					var classesArr = ['success', 'info'];
+					var strclass = "";
+					if (index % 2 === 0) {//偶数行
+						strclass = classesArr[0];
+					} else {//奇数行
+						strclass = classesArr[1];
+					}
+					return { classes: strclass };
+				},//隔行变色
+				onCheck:function(row){
+					console.log(row);
+				},
+				onUncheck:function(row){
+					console.log(row);
+				},
+			});
+
+		};
+
+		//得到查询的参数
+		oTableInit.queryParams = function (params) {
+			var temp = {   									// 这里的键的名字和控制器的变量名必须一直，这边改动，控制器也需要改成一样的
+				limit : params.limit, 						// 每页显示数量
+				offset : params.offset, 					// SQL语句起始索引
+				page: (params.offset / params.limit) + 1,   // 当前页码
+			};
+			return temp;
+		};
+		return oTableInit;
+	};
+	
+	function operateFormatter(value, row, index) {//赋予的参数
+		return [
+			'<a href="javascript:void;" class="RoleOfadd btn btn-xs green"  title="查看"><span class="glyphicon glyphicon-search"></span></a>',
+            '<a href="javascript:void;" class="RoleOfedit btn btn-xs blue"   title="编辑"><span class="glyphicon glyphicon-pencil"></span></a>',
+            '<a href="javascript:void;" class="RoleOfdelete btn btn-xs red" title="删除"><span class="glyphicon glyphicon-remove"></span></a>',
+        ].join('');
+	}
+	
+	// 格式化状态
+    function statusFormatter(value, row, index) {
+        if (value === 1) {
+            return '<span class="label label-success">正常</span>';
+        } else {
+            return '<span class="label label-default">锁定</span>';
+        }
+    }
+	
+	//初始化操作按钮的方法
+    window.operateEvents = {
+        'click .RoleOfadd': function (e, value, row, index) {
+            add(row.id);
+        },
+        'click .RoleOfdelete': function (e, value, row, index) {
+            del(row.id);
+        },
+        'click .RoleOfedit': function (e, value, row, index) {
+            update(row.id);
+        }
+    };
+	
+	function add(id) {
+        alert("add 方法 , id = " + id);
+    }
+	
+    function del(id) {
+        alert("del 方法 , id = " + id);
+    }
+	
+    function update(id) {
+        alert("update 方法 , id = " + id);
+    }
+
+	$(window).resize(function() {
+		$('#strapTable').bootstrapTable('resetView', {
+			
+		});
+	});
+	
+	//$("#strapTable").niceScroll({styler:"fb",cursorcolor:"#e8403f", cursorwidth: '6', cursorborderradius: '10px', background: '#404040', cursorborder: '', zindex: '600'});
+  
+  </script>
+
+
+  </body>
+</html>
